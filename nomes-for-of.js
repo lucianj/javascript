@@ -1,5 +1,5 @@
 const estudantes = ['Carla', 'João', 'Marina', 'Lucas', 'Beatriz'];
 
-for (estudante of estudantes){
+for (let estudante of estudantes){
     console.log(`Estudante: ${estudante}`);
 }
